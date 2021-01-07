@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1033733398172",
+    "firebase_url": "https://citedeptlogbook.firebaseio.com",
+    "project_id": "citedeptlogbook",
+    "storage_bucket": "citedeptlogbook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033733398172:android:f1c331d15efae9e3579759",
+        "android_client_info": {
+          "package_name": "com.example.citelogbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033733398172-dotbvvn5hhiitcp0bpc36994ekuspv32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChcEZ9nSlqfwksl_MoCzsmlHNlkPEaSEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033733398172-dotbvvn5hhiitcp0bpc36994ekuspv32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

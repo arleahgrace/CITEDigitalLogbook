@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#474A4C"
+    tools:context=".profile_admin">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp">
+
+            <Button
+                android:id="@+id/backadmin_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="back"
+                android:textColor="@color/white"
+                app:backgroundTint="#1D6320" />
+
+            <TextView
+                android:id="@+id/title_profile1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/backadmin_profile"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="PROFILE"
+                android:textColor="#FFFFFF"
+                android:textSize="40dp" />
+
+
+            <ImageView
+                android:id="@+id/profilepic_admin"
+                android:layout_width="match_parent"
+                android:layout_height="174dp"
+                android:layout_below="@+id/title_profile1"
+                android:src="@drawable/teacher"
+                android:layout_margin="5dp"
+                />
+
+            <TextView
+                android:id="@+id/name_admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profilepic_admin"
+                android:fontFamily="sans-serif-condensed-light"
+                android:hint="NAME"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="50dp"
+                android:textColor="#FFFFFF"
+                android:textSize="24dp"
+
+                />
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            android:id="@+id/grid3"
+            android:layout_marginTop="20dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Email"
+                    android:textColor="@color/white"
+                    android:textSize="32dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:hint="Email"
+                    android:id="@+id/email"
+                    android:textColor="@color/white"
+                    android:textSize="32dp" />
+            </LinearLayout>
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnOrderPreserved="false"
+            android:alignmentMode="alignMargins"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:id="@+id/grid4"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="ID Number"
+                    android:textColor="@color/white"
+                    android:textSize="32dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:hint="number"
+                    android:id="@+id/idnumber"
+                    android:textColor="@color/white"
+                    android:textSize="32dp" />
+            </LinearLayout>
+        </GridLayout>
+
+        <Button
+            android:id="@+id/changepass_admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/grid4"
+            android:layout_marginTop="20dp"
+            android:text="Change Password"
+            android:textColor="@color/white"
+            app:backgroundTint="#1D6320"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</ScrollView>
